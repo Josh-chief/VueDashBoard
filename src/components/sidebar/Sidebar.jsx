@@ -13,7 +13,7 @@ const sidebarLinks = [
   },
 
   {
-    label: 'Home',
+    label: 'Menu',
     component: 'Home',
     icon: BookOpenIcon,
   },
