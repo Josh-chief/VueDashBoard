@@ -23,7 +23,6 @@ const sidebarLinks = [
     component: 'Home',
     icon: CalculatorIcon,
   },
-
   {
     label: 'Register',
     component: 'Register',
