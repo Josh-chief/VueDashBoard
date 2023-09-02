@@ -1,7 +1,6 @@
 import { defineComponent } from 'vue'
 import { RouterLink } from 'vue-router'
 import AuthCard from '../../components/auth/AuthCard'
-import GithubIcon from '../../components/icons/GithubIcon'
 
 const Form = defineComponent({
   setup() {
@@ -80,19 +79,10 @@ const Footer = defineComponent({
       <>
         <div class="flex items-center justify-center space-x-2 flex-nowrap">
           <span class="w-20 h-px bg-gray-300"></span>
-          <span>OR</span>
+
           <span class="w-20 h-px bg-gray-300"></span>
         </div>
-        <a
-          onClick={(e) => {
-            e.preventDefault()
-          }}
-          href="#"
-          class="flex items-center justify-center px-4 py-2 space-x-2 text-white transition-all duration-200 bg-black rounded-md  hover:bg-opacity-80 focus:outline-none focus:ring"
-        >
-          <GithubIcon aria-hidden="true" class="w-6 h-6 text-white" />
-          <span> Register using github </span>
-        </a>
+
 
         <div class="text-sm text-gray-600">
           Already have an account? &nbsp;
