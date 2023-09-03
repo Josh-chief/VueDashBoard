@@ -8,7 +8,7 @@ export default defineComponent({
     setup() {
         return () => (
             <div className='w-100'>
-                <h3>Menu Page</h3>
+                <h3>Help Page</h3>
             </div>
         )
     }

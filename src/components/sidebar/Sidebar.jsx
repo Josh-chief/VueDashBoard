@@ -14,13 +14,13 @@ const sidebarLinks = [
 
   {
     label: 'Menu',
-    component: 'Home',
+    component: 'Menu',
     icon: BookOpenIcon,
   },
 
   {
     label: 'Transactions',
-    component: 'Home',
+    component: 'Transactions',
     icon: CalculatorIcon,
   },
   {
@@ -35,9 +35,11 @@ const sidebarLinks = [
   },
   {
     label: 'Help',
-    component: 'Home',
+    component: 'Help',
     icon: QuestionMarkCircleIcon,
   },
+
+  
 ]
 
 const SidebarHeader = defineComponent({
