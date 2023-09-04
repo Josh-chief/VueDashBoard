@@ -4,7 +4,10 @@ import GuestLayout from '../components/layouts/GuestLayout'
 import Menu from '../views/Menu'
 import Transactions from '../views/Transactions'
 import Help from '../views/Help'
+import Orders from '../views/Orders'
+
 import AppLayout from '../components/layouts/AppLayout'
+
 
 
 
@@ -41,6 +44,12 @@ export default [
     path: '/Help',
     name: 'Help',
     component: Help,
+    meta: { layout: AppLayout },
+  },
+  {
+    path: '/Orders',
+    name: 'Orders',
+    component: Orders,
     meta: { layout: AppLayout },
   },
 ]

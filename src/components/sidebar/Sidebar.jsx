@@ -1,7 +1,6 @@
 import { defineComponent } from 'vue'
 import { RouterLink } from 'vue-router'
-import { HomeIcon, UserAddIcon, LoginIcon, LogoutIcon, BookOpenIcon, CalculatorIcon, QuestionMarkCircleIcon } from '@heroicons/vue/outline'
-
+import { HomeIcon, UserAddIcon, LoginIcon, LogoutIcon, BookOpenIcon, CalculatorIcon, QuestionMarkCircleIcon, ShoppingBagIcon } from '@heroicons/vue/outline'
 import { isSidebarOpen } from '../../states/globalStates'
 import Overlay from '../global/Overlay'
 
@@ -16,6 +15,12 @@ const sidebarLinks = [
     label: 'Menu',
     component: 'Menu',
     icon: BookOpenIcon,
+  },
+  {
+    
+    label: 'Orders',
+    component: 'Orders',
+    icon: ShoppingBagIcon,
   },
 
   {
@@ -39,7 +44,8 @@ const sidebarLinks = [
     icon: QuestionMarkCircleIcon,
   },
 
-  
+
+
 ]
 
 const SidebarHeader = defineComponent({
