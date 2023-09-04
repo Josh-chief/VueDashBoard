@@ -7,9 +7,10 @@ import { defineComponent } from 'vue'
 export default defineComponent({
     setup() {
         return () => (
-            <div className='w-100'>
-                <h3>Transaction Page</h3>
-            </div>
+            <v-row cols="12" sm="12">
+                <h4 class="text-center">TRANSACTIONS</h4>
+
+            </v-row>
         )
     }
 })

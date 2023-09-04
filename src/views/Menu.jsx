@@ -8,8 +8,16 @@ export default defineComponent({
     setup() {
         return () => (
             <div className='w-100'>
-                <h3>Menu Page</h3>
+               
+                <v-row cols="12" sm="12">
+                    <h4 class="text-center">STRATHMORE CAFETERIA MENU</h4>
+
+                </v-row>
             </div>
+
+        
+            
+            
         )
     }
 })
