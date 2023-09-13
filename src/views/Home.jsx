@@ -126,16 +126,16 @@ export default defineComponent({
         </div>
 
         {/*  */}
-        <h3 class="mt-6 text-xl">Users</h3>
+        <h3 class="mt-6 text-xl">Recent Orders</h3>
         <div class="min-h-full mt-6 overflow-hidden overflow-x-auto border border-gray-200 rounded-md">
           <table class="w-full divide-y divide-gray-200">
             <thead class="bg-gray-50">
               <tr>
                 <th scope="col" class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">
-                  Name
+                  Product
                 </th>
                 <th scope="col" class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">
-                  Title
+                  
                 </th>
                 <th scope="col" class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">
                   Status

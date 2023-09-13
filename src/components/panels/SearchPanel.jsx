@@ -5,7 +5,7 @@ import { isSearchPanelOpen } from '../../states/globalStates'
 export default defineComponent({
   setup() {
     return () => (
-      <Panel
+      <Panel  
         show={isSearchPanelOpen.value}
         title="Search"
         left

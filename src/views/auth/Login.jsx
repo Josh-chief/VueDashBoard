@@ -26,7 +26,7 @@ const Form = defineComponent({
               <div class="relative inline-flex items-center">
                 <input
                   type="checkbox"
-                  name="remembr_me"
+                  name="remember_me"
                   class="w-10 h-4 transition bg-gray-200 border-none rounded-full shadow-inner outline-none appearance-none  toggle checked:bg-blue-500 disabled:bg-gray-200 focus:outline-none"
                 />
                 <span class="absolute top-0 left-0 w-4 h-4 transition-all transform scale-150 bg-white rounded-full shadow-sm"></span>
